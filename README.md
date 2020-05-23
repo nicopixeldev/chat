@@ -1,46 +1,21 @@
-# Gatsby
-[Gatsby](https://github.com/gatsbyjs/gatsby).
-
-[gatsby-starter-lumen](https://github.com/alxshelepenok/gatsby-starter-lumen)
-
-## Table of Contents  
-[Gatsby Pages](#Pages)  
-[Link](#Link)
-
-## Pages
-+ The `/src/pages` will represent all pages of our Gatsby site
-+ `/src/pages/index.js` is our HOME 
-+ For example, the `blog.js` page is accesible by `/blog` URI
-
-## Link
-`Link` provides two options for adding styles to the active link
-+ activeStyle — a style object that will only be applied when the current item is active
-+ activeClassName — a class name that will only be added to the Link when the current item is active
-
-```jsx
-    <Link
-      to="/"
-      {/* This assumes the `active` class is defined in your CSS */}
-      activeClassName="active"
-    >
-      Home
-    </Link>
-    <Link
-      to="/about/"
-      activeStyle={{ color: "red" }}
-    >
-      About
-    </Link>
-```
 
 
+# Chat Socket
+Chat sockets is a really simple app to learn the basis of sockets in the server and the client.
+The application let you enter to any room you want and share the location with all the presents.
 
-## GraphQL
-3 main operations we can perform:
+**npm run develop**: run the application in http://localhost:3000
+
+### Joining Page
+
+![](./docs/images/chat-joining-room.png)
+
+### Chat Room
+
+![](./docs/images/chat-room.png)
+
+### Share location
+
+![](./docs/images/chat-sending-location.png)
 
 
-
-
-```jsx
-
-```
