@@ -1,20 +1,26 @@
 {
-  "name": "chat-app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bad-words": "^3.0.0",
-    "express": "^4.16.4",
-    "socket.io": "^2.2.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  }
+    "name": "chat-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "check": "eslint 'src/**/*.js'",
+        "format": "prettier --write 'src/**/*.js'"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bad-words": "^3.0.0",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "express": "^4.16.4",
+        "prettier": "^2.3.2",
+        "socket.io": "^2.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
 }
