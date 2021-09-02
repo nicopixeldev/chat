@@ -1,15 +1,15 @@
 {
     "name": "chat-app",
     "version": "1.0.0",
-    "description": "",
+    "description": "Chat App",
     "main": "index.js",
     "scripts": {
-        "start": "node src/index.js",
-        "dev": "nodemon src/index.js",
-        "check": "eslint 'src/**/*.js'",
-        "format": "prettier --write 'src/**/*.js'"
+        "start": "node server/index.js",
+        "develop": "nodemon server/index.js",
+        "check": "eslint 'server/**/*.js'",
+        "format": "prettier --write 'server/**/*.js'"
     },
-    "author": "",
+    "author": "nicopixel - hi@nicopixel.com",
     "license": "ISC",
     "dependencies": {
         "bad-words": "^3.0.0",

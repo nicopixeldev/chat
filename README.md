@@ -6,7 +6,7 @@ Welcome to my Chat App based on [sockets.io](https://socket.io/),
 ## Features
 
 👉 Joining page and select chat based on room name <br/> 👉
-[SERVER side](./src/index.js) based on [node](https://nodejs.org/en/),
+[SERVER side](./server/index.js) based on [node](https://nodejs.org/en/),
 [express](https://expressjs.com/), and [sockets.io](https://socket.io/) <br/> 👉
 [FRONTEND side](./public/js/chat.js) based on html,
 [mustache template](https://github.com/janl/mustache.js), and
