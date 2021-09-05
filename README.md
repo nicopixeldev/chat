@@ -3,6 +3,12 @@
 Welcome to my Chat App based on [sockets.io](https://socket.io/),
 [node](https://nodejs.org/en/), html and JS.
 
+## Run the Application
+
+👉  [Live App](https://nicopixel-chat.netlify.app/) deployed into netlify (with heroku for server side) 
+👉 Run `git clone https://github.com/nicopixel/chat`, `cd chat`, `yarn` or `npm install` and `npm run start` to run the application in http://localhost:3000
+
+
 ## Features
 
 👉 Joining page and select chat based on room name <br/> 👉
