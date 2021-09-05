@@ -5,7 +5,7 @@ Welcome to my Chat App based on [sockets.io](https://socket.io/),
 
 ## Run the Application
 
-👉  [Live App](https://nicopixel-chat.netlify.app/) deployed into netlify (with heroku for server side) 
+👉  [Live App](https://nicopixel-chat.netlify.app/) deployed into netlify (with heroku for server side) <br/>
 👉 Run `git clone https://github.com/nicopixel/chat`, `cd chat`, `yarn` or `npm install` and `npm run start` to run the application in http://localhost:3000
 
 
