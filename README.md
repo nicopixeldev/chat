@@ -4,7 +4,7 @@ Welcome to **Chat Socket**, a real-time chat application built with [Socket.io](
 
 ---
 
-## [Live App](https://chat-lac-five.vercel.app/)
+## <a href="https://chat-lac-five.vercel.app/" target="_blank">Live App</a>
 The application is deployed on **Netlify** for the frontend and **Heroku** for the server-side functionality. Click the link above to try it out live!
 
 ---
