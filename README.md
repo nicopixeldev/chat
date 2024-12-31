@@ -4,6 +4,28 @@ Welcome to **Chat Socket**, a real-time chat application built with [Socket.io](
 
 ---
 
+## Application Overview
+
+### Joining Page
+
+![Joining Page](./docs/images/chat-joining-room.png)
+
+The joining page allows you to:
+- Choose a **public nickname**.
+- Select or create a **room** to join. Ensure you use the exact room name to enter an existing room.
+
+---
+
+### Chat Room
+
+![Chat Room](./docs/images/chat-room.png)
+
+The chat room is the main interaction space where you can:
+- Send messages to everyone in the room.
+- Share your location with other participants using the **Navigator API**.
+
+---
+
 ## <a href="https://chat-lac-five.vercel.app/" target="_blank">Live App</a>
 The application is deployed on **Netlify** for the frontend and **Heroku** for the server-side functionality. Click the link above to try it out live!
 
@@ -53,28 +75,6 @@ The project includes several npm scripts to streamline development and testing:
 - **`npm run develop`**: Start the app in development mode with **nodemon** for automatic restarts on file changes.
 - **`npm run check`**: Analyze the code for errors and style issues using **ESLint**.
 - **`npm run format`**: Format the codebase according to **Prettier** standards.
-
----
-
-## Application Overview
-
-### Joining Page
-
-![Joining Page](./docs/images/chat-joining-room.png)
-
-The joining page allows you to:
-- Choose a **public nickname**.
-- Select or create a **room** to join. Ensure you use the exact room name to enter an existing room.
-
----
-
-### Chat Room
-
-![Chat Room](./docs/images/chat-room.png)
-
-The chat room is the main interaction space where you can:
-- Send messages to everyone in the room.
-- Share your location with other participants using the **Navigator API**.
 
 ---
 
