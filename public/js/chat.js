@@ -9,11 +9,15 @@ const $messages = document.querySelector('#messages')
 
 // Templates
 const messageTemplate = document.querySelector('#message-template').innerHTML
-const locationMessageTemplate = document.querySelector('#location-message-template').innerHTML
+const locationMessageTemplate = document.querySelector(
+    '#location-message-template'
+).innerHTML
 const sidebarTemplate = document.querySelector('#sidebar-template').innerHTML
 
 // Options
-const { username, room } = Qs.parse(location.search, { ignoreQueryPrefix: true })
+const { username, room } = Qs.parse(location.search, {
+    ignoreQueryPrefix: true
+})
 
 const autoscroll = () => {
     // New message element
@@ -96,13 +100,17 @@ $sendLocationButton.addEventListener('click', () => {
     $sendLocationButton.setAttribute('disabled', 'disabled')
 
     navigator.geolocation.getCurrentPosition((position) => {
-        socket.emit('sendLocation', {
-            latitude: position.coords.latitude,
-            longitude: position.coords.longitude
-        }, () => {
-            $sendLocationButton.removeAttribute('disabled')
-            console.log('Location shared!')  
-        })
+        socket.emit(
+            'sendLocation',
+            {
+                latitude: position.coords.latitude,
+                longitude: position.coords.longitude
+            },
+            () => {
+                $sendLocationButton.removeAttribute('disabled')
+                console.log('Location shared!')
+            }
+        )
     })
 })
 
